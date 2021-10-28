@@ -1,0 +1,41 @@
+p {
+  font-family: mulish;
+  font-size: 20px;
+}
+
+img {
+  height: 400px ;
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid salmon;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.info {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 7.5px solid salmon;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  width: 140px;
+  height: 70px ;
+  text-align: center;
+  font-size: 22px;
+  background-color: lightsalmon;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background-color: salmon;
+}

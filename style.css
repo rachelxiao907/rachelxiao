@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Hammersmith+One&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body {
+  margin: 2em;
+  background-color: #ff890015;
+}
+h1 {
+  font-family: Georgia;
+  text-align: center; 
+  color: #5E6472;
+  font-size: 60px;
+  padding-top: 10px;
+}
+h2 {
+  font-family: Verdana, sans-serif;
+  color: #cc3600;
+  font-size: 30px;
+}
+
+/* columns!! */
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.left {
+  padding-right: 30px;
+}
+.right {
+  padding-left: 30px;
+}
+
+/* Add a gray background color to the top navigation */
+nav {
+  background-color: #ffc099;
+  overflow: hidden;
+  font-family: open sans;
+  margin: -2em;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  color: #38023B;
+  background-color: lightsalmon;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  color: #38023B;
+  background-color: lightsalmon;
+}
